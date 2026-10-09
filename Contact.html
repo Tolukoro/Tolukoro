@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="Taco.html">Home</a></li>
+                <li><a href="Taco.html#About-Us">About Us</a></li>
+                <li><a href="Taco.html#Our-Menu">Our Menu</a></li>
+                <li><a href="Store.html">Store Hours</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <figure>
+                <img src="tacos_close_up_400x260.png" alt="Taco_Close_Up" title="Taco_Close_Up">
+                <figcaption>Little Taco Shop Tacos</figcaption>  
+            </figure>
+        </section>
+        <section>
+            <h2>Our Contact Form</h2>
+            <form action="https://httpbin.org/post" method="post">
+                <fieldset>
+                    <legend><b>Send Us A Message</b></legend>
+                    <label for="Name"><b>Name:</b></label>
+                    <input type="text" name="Name" id="Name" placeholder="your name" required>
+                    <p>
+                    <label for="email" ><b>Email:</b></label>
+                    <input type="email" placeholder="your email" name="email" id="email" required>
+                    </p>
+                    <label for="text"><b>Your Message:</b></label><br>
+                    <textarea name="" id="text" cols="30" rows="10" placeholder="Type your message here"></textarea>
+                </fieldset>
+                <button type="submit">Send</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+        <section>
+            <h2>Our Location</h2>
+            <address>
+                555 Taco Tempttion Lane, Suite T <br> Kansas City, MO 55555-5555
+
+                <p>Phone: <a href="tel:08119103835" > 5555-555-5555 </a></p> 
+
+            </address>
+            
+        </section>
+    </main>
+</body>
+</html>
